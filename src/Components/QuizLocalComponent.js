@@ -3,6 +3,7 @@ import quizData from '../Files/quiz.json'
 
 function QuizLocalComponent() {
     const [quizStarted, setQuizStarted] = useState(false);
+    // eslint-disable-next-line
     const [questions, setQuestions] = useState(quizData.questions);
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
     const [score, setScore] = useState(0);
